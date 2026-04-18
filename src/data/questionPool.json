@@ -1,0 +1,536 @@
+[
+  {
+    "id": "anat-1",
+    "subject": "Veteriner Anatomi",
+    "text": "Evcil memeli hayvanlarda, kalbin facies atrialis'inde bulunan ve her iki atrium'u birbirinden ayıran oluk aşağıdakilerden hangisidir?",
+    "options": ["Sulcus interventricularis paraconalis", "Sulcus interventricularis subsinuosus", "Sulcus coronarius", "Sulcus terminalis", "Sulcus interatrialis"],
+    "correctIndex": 4,
+    "explanation": "Atriumları birbirlerinden ayıran oluk Sulcus interatrialis'tir. Sulcus coronarius ise atrium ve ventriculusları ayırır.",
+    "optionExplanations": [
+      "Ventriculusları ayıran yüzlek oluktur.",
+      "Ventriculusları ayıran derin oluktur.",
+      "Atrium ve ventriculusları ayıran taç şeklinde oluktur.",
+      "Vena cava'ların girişinde bulunan bir sınırdır.",
+      "Atriumlar arası bölmeyi dışarıdan temsil eden oluktur."
+    ]
+  },
+  {
+    "id": "anat-2",
+    "subject": "Veteriner Anatomi",
+    "text": "At (Equus caballus) iskelet sisteminde, scapula'nın margo dorsalis'ine tutunan ve göğüs kafesi ile bağlantıyı sağlayan kıkırdak yapı aşağıdakilerden hangisidir?",
+    "options": ["Cartilago xiphoidea", "Cartilago scapulae", "Cartilago costalis", "Cartilago alaris", "Cartilago thyroidea"],
+    "correctIndex": 1,
+    "explanation": "Scapula'nın üst kenarında bulunan ve omuz bölgesine genişlik katan kıkırdak dokusu Cartilago scapulae'dir.",
+    "optionExplanations": [
+      "Sternum'un arka ucundaki kıkırdaktır.",
+      "Scapula'nın dorsal kenarında bulunan ve rhomboideus kaslarının tutunduğu kıkırdaktır.",
+      "Kaburgaların sternumla birleşen kıkırdak bölümüdür.",
+      "Burun kanadındaki kıkırdaktır.",
+      "Larynx kıkırdaklarından biridir."
+    ]
+  },
+  {
+    "id": "biyo-1",
+    "subject": "Veteriner Biyokimya",
+    "text": "Hücre içi sinyal iletiminde 'ikinci haberci' (second messenger) olarak görev yapan ve adenilat siklaz enzimi tarafından sentezlenen molekül aşağıdakilerden hangisidir?",
+    "options": ["GTP", "cGMP", "cAMP", "IP3", "DAG"],
+    "correctIndex": 2,
+    "explanation": "cAMP (siklik AMP), adenilat siklaz enzimi tarafından ATP'den sentezlenen klasik bir ikinci habercidir.",
+    "optionExplanations": [
+      "Enerji ve sinyal iletiminde kullanılan bir nükleotiddir.",
+      "Guanilat siklaz tarafından sentezlenir.",
+      "Adenilat siklaz enziminin ana ürünüdür.",
+      "Fosfolipaz C etkisiyle oluşur.",
+      "Fosfolipaz C etkisiyle oluşan lipid yapılı habercidir."
+    ]
+  },
+  {
+    "id": "biyo-2",
+    "subject": "Veteriner Biyokimya",
+    "text": "Proteinlerin yapı taşları olan amino asitler arasında kurulan bağ türü aşağıdakilerden hangisidir?",
+    "options": ["Glikozid bağı", "Peptit bağı", "Ester bağı", "Fosfodiester bağı", "Hidrojen bağı"],
+    "correctIndex": 1,
+    "explanation": "Amino asitlerin karboksil grubu ile diğer amino asitin amino grubu arasında kurulan bağ peptit bağıdır.",
+    "optionExplanations": [
+      "Karbonhidratlarda bulunur.",
+      "Amino asitleri birbirine bağlayan kovalent bağdır.",
+      "Yağ asitleri ile gliserol arasında kurulur.",
+      "Nükleik asitlerin ana omurga bağıdır.",
+      "Proteinlerin sekonder yapısını stabilize eden zayıf bağdır."
+    ]
+  },
+  {
+    "id": "fizyo-1",
+    "subject": "Veteriner Fizyoloji",
+    "text": "Böbreklerden salgılanan ve eritrosit yapımını (eritropoez) uyaran hormon aşağıdakilerden hangisidir?",
+    "options": ["Renin", "Anjiyotensin", "Eritropoetin", "Adrenalin", "Aldosteron"],
+    "correctIndex": 2,
+    "explanation": "Eritropoetin (EPO), böbrek peritübüler hücrelerinden sentezlenir ve kemik iliğinde eritrosit üretimini başlatır.",
+    "optionExplanations": [
+      "Kan basıncı düzenlenmesinde rol alan bir enzimdir.",
+      "Damar daraltıcı etkili bir proteindir.",
+      "Eritrosit üretimini uyaran spesifik hormondur.",
+      "Adrenal medulladan salgılanan stres hormonudur.",
+      "Sodyum geri emilimini sağlayan mineralokortikoiddir."
+    ]
+  },
+  {
+    "id": "hist-1",
+    "subject": "Histoloji & Embriyoloji",
+    "text": "Bağ dokusuna ait hücrelerden kolajen ve elastik liflerin sentezinden sorumlu ana hücre aşağıdakilerden hangisidir?",
+    "options": ["Makrofaj", "Plazma hücresi", "Mast hücresi", "Fibroblast", "Adiposit"],
+    "correctIndex": 3,
+    "explanation": "Fibroblastlar, bağ dokusunun ekstraselüler matriks elemanlarını (lifler ve temel madde) sentezleyen temel hücrelerdir.",
+    "optionExplanations": [
+      "Fagositoz yapan savunma hücresidir.",
+      "Antikor sentezleyen B-lenfosit türevidir.",
+      "Heparin ve histamin salgılayan alerji hücresidir.",
+      "Matriks ve lif üretiminden sorumlu esas hücredir.",
+      "Yağ depolayan hücredir."
+    ]
+  },
+  {
+    "id": "tarih-1",
+    "subject": "Veteriner Hekimliği Tarihi & Deontoloji",
+    "text": "Türkiye'de ilk sivil veteriner okulu (Mülkiye Baytar Mektebi) hangi yıl kurulmuştur?",
+    "options": ["1842", "1881", "1889", "1908", "1933"],
+    "correctIndex": 2,
+    "explanation": "Türkiye'de sivil veteriner eğitimi 1889 yılında Mülkiye Baytar Mektebi'nin kurulmasıyla başlamıştır.",
+    "optionExplanations": [
+      "Askeri veteriner okulunun kuruluş yılıdır.",
+      "Eğitim reformu dönemi dönemidir.",
+      "İlk sivil veteriner okulunun kuruluş tarihidir.",
+      "Meşrutiyet ilanıdır.",
+      "Ankara Üniversitesi Veteriner Fakültesi'nin başlangıcı sayılabilecek reform yılıdır."
+    ]
+  },
+  {
+    "id": "lab-1",
+    "subject": "Lab. Hayvanları Bilimi",
+    "text": "Laboratuvar hayvanlarında 'SPF' (Specific Pathogen Free) terimi ne anlama gelir?",
+    "options": ["Tüm mikroplardan arınmış", "Sadece spesifik patojenlerden arınmış", "Bağışıklık sistemi çökmüş", "Genetik olarak modifiye edilmiş", "Kesinlikle steril ortamda doğmuş"],
+    "correctIndex": 1,
+    "explanation": "SPF hayvanlar, belirli bir listedeki hastalık yapıcı (patojen) mikroorganizmalardan arındırılmış ancak normal flora bakterilerine sahip hayvanlardır.",
+    "optionExplanations": [
+      "Bu Germ-Free (Aksenik) hayvanlar için geçerlidir.",
+      "Belirlenen spesifik patojenlerin bulunmadığı hayvanlardır.",
+      "İmmun yetmezlikli (nü) hayvanları ifade eder.",
+      "Transjenik hayvanları tanımlar.",
+      "Histerektomi ile alınan yavruları ifade edebilir."
+    ]
+  },
+  {
+    "id": "ic-1",
+    "subject": "İç Hastalıkları",
+    "text": "Sığırlarda reticuloperitonitis traumatica (RPT) şüphesinde yapılan sancı deneylerinden hangisi abdomen'in ventraline basınç uygulanarak yapılır?",
+    "options": ["Götze deneyi", "Sopa deneyi", "Yokuş aşağı yürütme", "Beslenme deneyi", "Sırt derisini sıkma"],
+    "correctIndex": 1,
+    "explanation": "Sopa deneyi (veya basınç deneyi), hayvanın karnının altına bir sopa yardımıyla basınç uygulanması ve yabancı cismin batışına bağlı ağrı tepkisinin gözlenmesidir.",
+    "optionExplanations": [
+      "Xiphoid bölgesine baskı testlerinden biridir.",
+      "Karın altına sopa ile basınç uygulama testidir.",
+      "Ağrı nedeniyle hayvanın yürümekten kaçınmasını gözlemleme metodudur.",
+      "Ruminasyon gözlemidir.",
+      "Willms veya sırt sıkma deneyi olarak bilinir."
+    ]
+  },
+  {
+    "id": "cerrahi-1",
+    "subject": "Cerrahi",
+    "text": "Aseptik tekniklerde, metal cerrahi aletlerin sterilizasyonunda en yaygın kullanılan ve basınçlı buhar prensibiyle çalışan cihaz aşağıdakilerden hangisidir?",
+    "options": ["Pastör fırını", "Etüv", "Otoklav", "UV lamba", "Alkol havuzu"],
+    "correctIndex": 2,
+    "explanation": "Otoklav, 121 derecede basınçlı doymuş su buharı ile sterilizasyon sağlayan en güvenilir cerrahi sterilizasyon cihazıdır.",
+    "optionExplanations": [
+      "Kuru sıcak hava ile sterilizasyon yapar.",
+      "Mikrobiyolojik ekimler için kullanılır.",
+      "Nemli ve basınçlı ısı ile sterilizasyon sağlar.",
+      "Sadece yüzey dezenfeksiyonu yapar.",
+      "Kimyasal dezenfeksiyon yöntemidir, sterilizasyon sayılmaz."
+    ]
+  },
+  {
+    "id": "dogum-1",
+    "subject": "Doğum & Jinekoloji",
+    "text": "İneklerde oestrus siklusunun 'luteal fazı' sırasında baskın olan hormon aşağıdakilerden hangisidir?",
+    "options": ["Östrojen", "FSH", "Progesteron", "LH", "Oksitosin"],
+    "correctIndex": 2,
+    "explanation": "Luteal fazda corpus luteum tarafından salgılanan progesteron hakimdir ve östrusu baskılar.",
+    "optionExplanations": [
+      "Foliküler faz hormonudur.",
+      "Folikül gelişimini uyarır.",
+      "Corpus luteum tarafından salgılanan gebelik koruyucu hormondur.",
+      "Ovulasyonu sağlayan hormondur.",
+      "Uterus kasılmalarını ve süt ejeksiyonunu sağlar."
+    ]
+  },
+  {
+    "id": "dolverme-1",
+    "subject": "Dölverme & Suni Tohumlama",
+    "text": "Boğa spermasının dondürülmesinde kriyoprotektan (soğuktan koruyucu) madde olarak en sık aşağıdakilerden hangisi kullanılır?",
+    "options": ["Alkol", "Gliserol", "Glikoz", "Fruktoz", "Sodyum klorür"],
+    "correctIndex": 1,
+    "explanation": "Gliserol, spermatozoonların içindeki suyun kristalleşerek hücreye zarar vermesini önleyen temel kriyoprotektandır.",
+    "optionExplanations": [
+      "Hücre zarına zarar verir.",
+      "Hücre içi kristal oluşumunu engelleyen soğuk koruyucudur.",
+      "Enerji kaynağı olarak kullanılır.",
+      "Enerji kaynağı olarak kullanılır.",
+      "İzotonik denge içindir."
+    ]
+  },
+  {
+    "id": "farm-1",
+    "subject": "Farmakoloji & Toksikoloji",
+    "text": "Antibiyotiklerden penisilin grubunun etki mekanizması aşağıdakilerden hangisidir?",
+    "options": ["Protein sentezini engellemek", "DNA sentezini durdurmak", "Hücre duvarı sentezini bozmak", "Hücre zarı geçirgenliğini artırmak", "Folik asit sentezini bloke etmek"],
+    "correctIndex": 2,
+    "explanation": "Penisilinler, bakterilerin hücre duvarındaki peptidoglikan tabakasının sentezini (transpeptidaz enzimini) engelleyerek etki gösterir.",
+    "optionExplanations": [
+      "Amino-glikozidlerin etkisidir.",
+      "Kinolonların etkisidir.",
+      "Beta-laktam antibiyotiklerin temel etki yoludur.",
+      "Polimiksinlerin etkisidir.",
+      "Sülfonamidlerin etkisidir."
+    ]
+  },
+  {
+    "id": "mikro-1",
+    "subject": "Mikrobiyoloji",
+    "text": "Gram boyama yönteminde, Gram-pozitif bakterilerin mor renk almasını sağlayan temel boya maddesi aşağıdakilerden hangisidir?",
+    "options": ["Safranin", "Kristal viyole", "Lugol", "Alkol-Aseton", "Çini mürekkebi"],
+    "correctIndex": 1,
+    "explanation": "Kristal viyole birincil boyadır ve Gram pozitif hücre duvarındaki kalın peptidoglikan tabakasına tutunarak mor renk verir.",
+    "optionExplanations": [
+      "Karşıt boyadır (pembe/kırmızı).",
+      "Gram boyama yönteminin temel ve ilk boyasıdır.",
+      "mordan (tespit edici) olarak kullanılır.",
+      "Dekolorizasyon (renksizleştirme) aşamasıdır.",
+      "Kapsül boyamasında kullanılır."
+    ]
+  },
+  {
+    "id": "viro-1",
+    "subject": "Viroloji",
+    "text": "Köpeklerde 'Gençlik Hastalığı' (Distemper) etkeni olan virüs hangi familyaya aittir?",
+    "options": ["Retroviridae", "Paramyxoviridae", "Rhabdoviridae", "Herpesviridae", "Poxviridae"],
+    "correctIndex": 1,
+    "explanation": "Canine Distemper Virus (CDV), Paramyxoviridae familyasına ait olup sığır vebası virüsüyle yakından ilişkilidir.",
+    "optionExplanations": [
+      "AIDS/Lösemi benzeri virüsler.",
+      "Distemper ve Sığır Vebası virüslerinin ailesidir.",
+      "Kuduz virüsü ailesidir.",
+      "Uçuk ve gizli enfeksiyon virüsleri.",
+      "Çiçek virüsleri ailesidir."
+    ]
+  },
+  {
+    "id": "su-1",
+    "subject": "Su Ürünleri",
+    "text": "Balıklarda gaz kesesi (yüzme kesesi) aşağıdakilerden hangisinde temel bir role sahip değildir?",
+    "options": ["Denge sağlama", "Hydrostatik organ olma", "Ses üretimi", "Besin sindirimi", "Ses algılama"],
+    "correctIndex": 3,
+    "explanation": "Gaz kesesi kaldırma kuvveti, denge ve bazen sesle ilgilidir ancak sindirim sisteminin aktif bir parçası değildir.",
+    "optionExplanations": [
+      "Ana fonksiyonlarından biridir.",
+      "Su içindeki dikey hareketi düzenler.",
+      "Bazı türlerde rezonans sağlar.",
+      "Sindirimle bir ilgisi yoktur.",
+      "Weber organı aracılığıyla ses iletimine katılır."
+    ]
+  },
+  {
+    "id": "parazit-1",
+    "subject": "Parazitoloji",
+    "text": "Köpeklerde kalp kurdu hastalığına yol açan ve sivrisineklerle bulaşan parazit aşağıdakilerden hangisidir?",
+    "options": ["Toxocara canis", "Dipylidium caninum", "Dirofilaria immitis", "Echinococcus granulosus", "Giardia lamblia"],
+    "correctIndex": 2,
+    "explanation": "Dirofilaria immitis, kalbin sağ ventrikülü ve pulmoner arterlere yerleşen kalp kurdu etkenidir.",
+    "optionExplanations": [
+      "Barsak askaritidir.",
+      "Pireler yoluyla bulaşan şerittir.",
+      "Kalp kurdu etkeni olan filarial nematodur.",
+      "Kist hidatik etkenidir.",
+      "Protozoon bir barsak parazitidir."
+    ]
+  },
+  {
+    "id": "pato-1",
+    "subject": "Patoloji",
+    "text": "Hücrenin programlı ölümü olarak tanımlanan ve enerji gerektiren süreç aşağıdakilerden hangisidir?",
+    "options": ["Nekroz", "Gangren", "Atrofi", "Apoptozis", "Hiperplazi"],
+    "correctIndex": 3,
+    "explanation": "Apoptozis, hücrenin kontrollü ve programlı bir şekilde kendi kendini yok etmesi sürecidir.",
+    "optionExplanations": [
+      "Kaza sonucu olan yıkıcı hücre ölümüdür.",
+      "Nekrozun masif halidir.",
+      "Hücrenin hacimce küçülmesidir.",
+      "Programlı hücre ölümü mekanizmasıdır.",
+      "Hücre sayısının artmasıdır."
+    ]
+  },
+  {
+    "id": "hijyen-1",
+    "subject": "Besin Hijyeni & Halk Sağlığı",
+    "text": "Çiğ sütte bulunabilen ve insanda Malta Humması (Malta Fever) hastalığına yol açan zoonoz etken aşağıdakilerden hangisidir?",
+    "options": ["Salmonella", "Listeria", "Brucella", "Escherichia coli", "Bacillus anthracis"],
+    "correctIndex": 2,
+    "explanation": "Brucella türleri, pastörize edilmemiş sütler yoluyla insanlara bulaşarak Bruselloz (Malta Humması) yapar.",
+    "optionExplanations": [
+      "Gıda zehirlenmesi ve tifo etkenidir.",
+      "Soğukta üreyebilen listerioz etkenidir.",
+      "Peynir ve süt ürünleriyle bulaşan sistemik zoonoz etkenidir.",
+      "Fekal kontaminasyon göstergesidir.",
+      "Şarbon etkenidir."
+    ]
+  },
+  {
+    "id": "genetik-1",
+    "subject": "Genetik",
+    "text": "DNA yapısında adenin bazının karşısına hangi baz gelir?",
+    "options": ["Guanin", "Sitozin", "Timin", "Urasil", "Pürin"],
+    "correctIndex": 2,
+    "explanation": "DNA'da adenin ile timin arasında ikili hidrojen bağı kurulur.",
+    "optionExplanations": [
+      "Sitozin ile eşleşir.",
+      "Guanin ile eşleşir.",
+      "DNA'da adeninin tamamlayıcı bazıdır.",
+      "RNA'da adeninin karşısına gelir.",
+      "Baz çeşidi değil, baz sınıfıdır."
+    ]
+  },
+  {
+    "id": "biometri-1",
+    "subject": "Biyometri",
+    "text": "Bir veri setinde en sık tekrarlanan değere ne ad verilir?",
+    "options": ["Aritmetik ortalama", "Medyan", "Mod", "Varyans", "Standart sapma"],
+    "correctIndex": 2,
+    "explanation": "İstatistiksel olarak en çok tekrarlanan gözleme 'tepe değeri' veya 'mod' denir.",
+    "optionExplanations": [
+      "Ortalama değerdir.",
+      "Ortanca değerdir.",
+      "En çok gözlenen değerdir.",
+      "Yayılım ölçüsüdür.",
+      "Varyansın kareköküdür."
+    ]
+  },
+  {
+    "id": "zootekni-1",
+    "subject": "Zootekni",
+    "text": "Atlarda gebelik süresi ortalama kaç gündür?",
+    "options": ["280", "150", "336", "114", "63"],
+    "correctIndex": 2,
+    "explanation": "Kısraklarda gebelik süresi yaklaşık 11 ay (330-340 gün) civarındadır.",
+    "optionExplanations": [
+      "İnek gebelik süresidir.",
+      "Koyun/Keçi gebelik süresidir.",
+      "Atların ortalama gebelik süresidir.",
+      "Domuz gebelik süresidir.",
+      "Kedi/Köpek gebelik süresidir."
+    ]
+  },
+  {
+    "id": "besleme-1",
+    "subject": "Besleme & Beslenme Hastalıkları",
+    "text": "Ruminantlarda kaba yemlerin partikül büyüklüğünün çok küçük olması aşağıdakilerden hangisine neden olabilir?",
+    "options": ["Şişme (Timpanizm)", "Ketozis", "Süt yağı düşüklüğü", "İshal", "Süt humması"],
+    "correctIndex": 2,
+    "explanation": "Kaba yemlerin çok ince kıyılması çiğneme ve ruminasyonu azaltarak asetat üretimini düşürür, bu da süt yağının azalmasına yol açar.",
+    "optionExplanations": [
+      "Genelde baklagil ağırlıklı yemlemede olur.",
+      "Enerji eksikliği hastalığıdır.",
+      "Düşük asetat üretimi nedeniyle süt yağını düşürür.",
+      "Enfeksiyöz olabilir.",
+      "Kalsiyum eksikliğidir."
+    ]
+  },
+  {
+    "id": "anat-3",
+    "subject": "Veteriner Anatomi",
+    "text": "Köpeklerde (Canis familiaris) ön bacakta (membrum thoracicum) radius ve ulna arasındaki eklem tipi nedir?",
+    "options": ["Ginglymus", "Sutura", "Symphysis", "Syndesmosis", "Diarthrosis"],
+    "correctIndex": 3,
+    "explanation": "Radius ve ulna arasındaki bağlantı, sınırlı hareket kabiliyetine sahip fibröz bir eklem olan syndesmosis tipindedir.",
+    "optionExplanations": ["Menteşe eklemler içindir.", "Kafa kemikleri arası dikişlerdir.", "Yarım eklemler (pelvis gibi) içindir.", "Kuvvetli bağlarla sağlanan fibröz eklemdir.", "Oynar eklemlerin genel adıdır."]
+  },
+  {
+    "id": "biyo-3",
+    "subject": "Veteriner Biyokimya",
+    "text": "Glukozun pirüvata kadar yıkıldığı anaerobik süreç aşağıdakilerden hangisidir?",
+    "options": ["Glikojenoliz", "Glikoneojenez", "Glikoliz", "Lipoliz", "Ketojenez"],
+    "correctIndex": 2,
+    "explanation": "Glikoliz, sitoplazmada glukozun pirüvata kadar yıkılarak ATP üretildiği temel yoldur.",
+    "optionExplanations": ["Glikojen yıkımıdır.", "Glukoz dışı maddelerden şeker yapımıdır.", "Şekerin yıkım sürecidir.", "Yağ yıkımıdır.", "Keton cisimciği sentezidir."]
+  },
+  {
+    "id": "fizyo-3",
+    "subject": "Veteriner Fizyoloji",
+    "text": "Sinir hücrelerinde aksiyon potansiyelinin hızlı iletilmesini sağlayan ve Ranvier boğumları arasında atlamalı iletime (saltatory conduction) imkan tanıyan yapı hangisidir?",
+    "options": ["Sinaps", "Miyelin kılıfı", "Dendrit", "Akson tepeciği", "Nissl cisimciği"],
+    "correctIndex": 1,
+    "explanation": "Miyelin kılıfı, aksiyon potansiyelinin sadece boğumlarda oluşmasını sağlayarak iletimi hızlandırır.",
+    "optionExplanations": ["Bağlantı bölgesidir.", "Yalıtkan kılıftır.", "Bilgi alan uzantıdır.", "Aksiyon potansiyelinin başladığı yerdir.", "Protein sentez bölgesidir."]
+  },
+  {
+    "id": "hist-3",
+    "subject": "Histoloji & Embriyoloji",
+    "text": "Çizgili kas dokusunda kasılmanın temel birimi olan ve iki Z çizgisi arasında kalan bölgeye ne ad verilir?",
+    "options": ["Sarkolemma", "Sarkoplazma", "Sarkomer", "Miyofibril", "A bandı"],
+    "correctIndex": 2,
+    "explanation": "Sarkomer, kas telciğinde iki Z çizgisi arasındaki en küçük fonksiyonel birimdir.",
+    "optionExplanations": ["Kas hücresi zarıdır.", "Kas hücresi sitoplazmasıdır.", "Kasılmanın temel birimidir.", "Kas telciğidir.", "Miyozin içeren karanlık banttır."]
+  },
+  {
+    "id": "tarih-3",
+    "subject": "Veteriner Hekimliği Tarihi & Deontoloji",
+    "text": "Etik açıdan, veteriner hekimin hastasına zarar vermeme ilkesi aşağıdakilerden hangisidir?",
+    "options": ["Adalet (Justice)", "Özerklik (Autonomy)", "Yararlılık (Beneficence)", "Zarar vermeme (Non-maleficence)", "Dürüstlük (Veracity)"],
+    "correctIndex": 3,
+    "explanation": "Primum non nocere (önce zarar verme) ilkesi deontolojik olarak non-maleficence olarak adlandırılır.",
+    "optionExplanations": ["Eşitlik ilkesidir.", "Kendi kararını verme hakkıdır.", "İyilik yapma ilkesidir.", "Zarar vermekten kaçınma ilkesidir.", "Doğruyu söyleme ilkesidir."]
+  },
+  {
+    "id": "lab-3",
+    "subject": "Lab. Hayvanları Bilimi",
+    "text": "Laboratuvar hayvanlarında ötenazi işleminde en etik ve yaygın kabul görmüş kimyasal yöntem hangisidir?",
+    "options": ["Eter", "Kloroform", "Yüksek doz barbitürat", "Hava embolisi", "Dondurma"],
+    "correctIndex": 2,
+    "explanation": "İntravenöz veya intraperitoneal yüksek doz barbitürat enjeksiyonu hızlı ve acısız bir ötenazi sağlar.",
+    "optionExplanations": ["Tahriş edicidir.", "Kanserojen ve risklidir.", "Altın standart kabul edilir.", "Etik dışıdır.", "Düşük sıcaklık şoku etik değildir."]
+  },
+  {
+    "id": "ic-3",
+    "subject": "İç Hastalıkları",
+    "text": "Sığırlarda Hipomagnezemi (Çayır Tetanisi) en çok hangi dönemde görülür?",
+    "options": ["Kışın ahır beslemesinde", "Kuru dönemde", "İlkbaharda taze mera beslemesinde", "Gebeliğin başında", "Sütten kesme döneminde"],
+    "correctIndex": 2,
+    "explanation": "İlkbaharda hızla büyüyen sulu meralar magnezyum açısından fakir ve potasyum açısından zengindir, bu da tetaniyi tetikler.",
+    "optionExplanations": ["Görülme ihtimali düşüktür.", "Metabolizma yavaştır.", "Kritik risk dönemidir.", "Risk düşüktür.", "Buzağılarla ilgilidir."]
+  },
+  {
+    "id": "cerrahi-3",
+    "subject": "Cerrahi",
+    "text": "Deri dikişinde doku kenarlarını içe (invajinasyon) sokmayan ve en yaygın kullanılan basit dikiş yöntemi hangisidir?",
+    "options": ["Lembert", "Cushing", "Basit ayrı dikiş", "Purse-string", "Schmieden"],
+    "correctIndex": 2,
+    "explanation": "Basit ayrı dikiş (simple interrupted suture) doku kenarlarını karşı karşıya getiren (apposition) dikiş tipidir.",
+    "optionExplanations": ["İçe sokan (serozayı birleştiren) dikiştir.", "Organ duvarlarını içe sokar.", "Kenarları uç uca getirir.", "Kese ağzı dikişidir.", "Dışa çeviren dikiştir."]
+  },
+  {
+    "id": "dogum-3",
+    "subject": "Doğum & Jinekoloji",
+    "text": "Kısraklarda 'Mavi Işık' uygulaması neden yapılır?",
+    "options": ["Meme iltihabını önlemek", "Sıcaklık stresi azaltmak", "Mevsimsel anöstrusu kırmak", "Doğumu başlatmak", "Süt verimini artırmak"],
+    "correctIndex": 2,
+    "explanation": "Kısraklar uzun gün fotoperiyoduna duyarlıdır; ışık uygulaması melatonin salgısını baskılayarak ovulasyonu erkene çeker.",
+    "optionExplanations": ["Mastit ile ilgisi yoktur.", "Gerekli değildir.", "Üreme sezonunu erkene çekmek içindir.", "Böyle bir etkisi yoktur.", "Sekonder bir etkidir."]
+  },
+  {
+    "id": "dolverme-3",
+    "subject": "Dölverme & Suni Tohumlama",
+    "text": "Spermanın mikroskobik muayenesinde kitle hareketi (masal hareket) 1-5 arası puanlanır. En iyi kitle hareketi kaçtır?",
+    "options": ["1", "2", "3", "4", "5"],
+    "correctIndex": 4,
+    "explanation": "Puanlamada 5, en yoğun ve hızlı dalgalanmaların olduğu en kaliteli hareketi temsil eder.",
+    "optionExplanations": ["Çok zayıftır.", "Zayıf harekettir.", "Orta düzeydedir.", "İyi bir harekettir.", "En mükemmel (pekiyi) kategorisidir."]
+  },
+  {
+    "id": "farm-3",
+    "subject": "Farmakoloji & Toksikoloji",
+    "text": "Organofosfatlı insektisid zehirlenmelerinde spesifik antidot aşağıdakilerden hangisidir?",
+    "options": ["Adrenalin", "Atropin", "K vitamini", "Aktif kömür", "Penisilin"],
+    "correctIndex": 1,
+    "explanation": "Atropin, parasempatik sisteme aşırı uyaran kolinesteraz engelleyicilerin antidotudur.",
+    "optionExplanations": ["Şok durumları içindir.", "Muskarinik etkileri bloke eder.", "Pıhtılaşma bozuklukları içindir.", "Genel adsorbandır.", "Antibiyotiktir."]
+  },
+  {
+    "id": "mikro-3",
+    "subject": "Mikrobiyoloji",
+    "text": "Liyofilizasyon yöntemi mikrobiyolojide ne amaçla kullanılır?",
+    "options": ["Hücreleri öldürmek", "DNA izole etmek", "Mikroorganizma kültürlerini uzun süre saklamak", "Sterilizasyon sağlamak", "Bakteri sayımı yapmak"],
+    "correctIndex": 2,
+    "explanation": "Liyofilizasyon (dondurarak kurutma), bakteri ve virüs suşlarının canlılığını yıllarca korumak için kullanılır.",
+    "optionExplanations": ["Tam tersine korur.", "Bu bir saflaştırma yöntemidir.", "Canlılık ve stabilite sağlar.", "Yüzey temizliği değildir.", "Koloni sayımı farklıdır."]
+  },
+  {
+    "id": "viro-3",
+    "subject": "Viroloji",
+    "text": "Kuduz (Rabies) virüsünün beynin belli bölgelerinde oluşturduğu karakteristik inklüzyon cisimcikleri hangisidir?",
+    "options": ["Negri cisimcikleri", "Guarnieri cisimcikleri", "Councilman cisimcikleri", "Joest-Degen cisimcikleri", "Paschen cisimcikleri"],
+    "correctIndex": 0,
+    "explanation": "Negri cisimcikleri, kuduz virüsünün nöron sitoplazmasında oluşturduğu asidofilik cisimciklerdir.",
+    "optionExplanations": ["Rabies için tanısaldır.", "Çiçek virüsü içindir.", "Hepatit hasarıdır.", "Borna hastalığı içindir.", "Çiçek virüsü temel cisimcikleridir."]
+  },
+  {
+    "id": "su-3",
+    "subject": "Su Ürünleri",
+    "text": "Alabalık yetiştiriciliğinde suyun oksijen miktarının kritik seviyenin altına düşmesi durumunda ilk görülen belirti hangisidir?",
+    "options": ["Yem tüketiminde artış", "Yüzeyde hava soluma girişimi", "Yüzgeçlerde erime", "Renk koyulaşması", "Büyüme hızında artış"],
+    "correctIndex": 1,
+    "explanation": "Hipoksi durumunda balıklar üst su katmanlarına yönelerek ağızlarıyla hava almaya çalışırlar.",
+    "optionExplanations": ["Azalır.", "Oksijen açlığını gösterir.", "Enfeksiyon belirtisidir.", "Stres belirtisidir ancak ilk değildir.", "Gelişim yavaşlar."]
+  },
+  {
+    "id": "parazit-3",
+    "subject": "Parazitoloji",
+    "text": "Koyunlarda karaciğer kelebeği (Fasciola hepatica) enfeksiyonlarında ara konak aşağıdakilerden hangisidir?",
+    "options": ["Sivrisinek", "Kene", "Tatlı su salyangozu (Lymnaea)", "Köpek", "Kemirgenler"],
+    "correctIndex": 2,
+    "explanation": "Fasciola döngüsü için mutlaka uygun bir tatlı su salyangozu türünün bulunması gerekir.",
+    "optionExplanations": ["Dirofilaria ara konağıdır.", "Babesia ara konağıdır.", "Kritik ara konaktır.", "Echinococcus konağıdır.", "Taenia multiceps ara konağıdır."]
+  },
+  {
+    "id": "pato-3",
+    "subject": "Patoloji",
+    "text": "Kemik dokusunda görülen malign (kötü huylu) tümörlere ne ad verilir?",
+    "options": ["Osteom", "Fibrom", "Osteosarkom", "Kondrom", "Miyom"],
+    "correctIndex": 2,
+    "explanation": "Mezenşimal kökenli kötü huylu tümörler -sarkom takısı alır; kemik için osteosarkomdur.",
+    "optionExplanations": ["İyi huylu kemik tümörüdür.", "İyi huylu bağ doku tümörüdür.", "Kötü huylu kemik kanseridir.", "İyi huylu kıkırdak tümörüdür.", "İyi huylu kas tümörüdür."]
+  },
+  {
+    "id": "hijyen-3",
+    "subject": "Besin Hijyeni & Halk Sağlığı",
+    "text": "Süt ürünlerinde 'Sert Peynir' üretiminde sütün pıhtılaştırılması için kullanılan ana enzim hangisidir?",
+    "options": ["Amilaz", "Lipaz", "Rennet (Rennin)", "Laktaz", "Proteaz"],
+    "correctIndex": 2,
+    "explanation": "Rennet, sütün kazeinini pıhtılaştırarak teleme oluşumunu sağlayan temel peynir mayası enzimidir.",
+    "optionExplanations": ["Nişasta sindirir.", "Yağ sindirir.", "Süt proteini çökelticisidir.", "Süt şekerini sindirir.", "Genel protein yıkıcıdır."]
+  },
+  {
+    "id": "genetik-3",
+    "subject": "Genetik",
+    "text": "Bir popülasyonda belli bir lokusta bulunan alternatif gen formlarına ne ad verilir?",
+    "options": ["Genotıp", "Fenotip", "Alel", "Lokus", "Kromozom"],
+    "correctIndex": 2,
+    "explanation": "Alel, aynı genin farklı nükleotid dizilimlerine sahip varyantlarıdır.",
+    "optionExplanations": ["Genetik yapıdır.", "Dış görünüştür.", "Gen varyantıdır.", "Genin bulunduğu yerdir.", "DNA paketidir."]
+  },
+  {
+    "id": "biometri-3",
+    "subject": "Biyometri",
+    "text": "İki değişken arasındaki ilişkinin yönünü ve derecesini belirlemek için kullanılan istatistiksel katsayı hangisidir?",
+    "options": ["P değeri", "Serbestlik derecesi", "Korelasyon katsayısı", "Ki-kare", "T-testi"],
+    "correctIndex": 2,
+    "explanation": "Korelasyon (r), iki değişken arasındaki lineer ilişkinin gücünü (-1 ile +1 arası) gösterir.",
+    "optionExplanations": ["Anlamlılık düzeyidir.", "Gözlem sayılarıyla ilgilidir.", "İlişki ölçüsüdür.", "Frekans karşılaştırmasıdır.", "Ortalama karşılaştırmasıdır."]
+  },
+  {
+    "id": "zootekni-3",
+    "subject": "Zootekni",
+    "text": "Koyunlarda dalkılıç, kıvırcık gibi tabirler neyi ifade eder?",
+    "options": ["Yem kalitesini", "Irk isimlerini", "Mera tipini", "Yapağı özelliğini", "Kuzulama dönemini"],
+    "correctIndex": 1,
+    "explanation": "Kıvırcık, Karaman, Merinos gibi isimler Türkiye'deki ünlü koyun ırklarını tanımlar.",
+    "optionExplanations": ["Alakasızdır.", "Popüler yerli koyun ırklarıdır.", "Bitki örtüsü değildir.", "Yapağı bir sonuçtur.", "Mevsimsel değildir."]
+  },
+  {
+    "id": "besleme-3",
+    "subject": "Besleme & Beslenme Hastalıkları",
+    "text": "Tavuklarda yumurta kabuğu kalitesini artırmak için rasyona en çok eklenmesi gereken mineral hangisidir?",
+    "options": ["Bakır", "Magnezyum", "Kalsiyum", "Demir", "Çinko"],
+    "correctIndex": 2,
+    "explanation": "Yumurta kabuğunun büyük çoğunluğu kalsiyum karbonattır; eksikliğinde kabuksuz veya yumuşak kabuklu yumurtalar görülür.",
+    "optionExplanations": ["Tüy rengiyle ilgilidir.", "Metabolizma içindir.", "Kabuk yapısı için elzemdir.", "Kan yapımı içindir.", "Deri sağlığı içindir."]
+  }
+]

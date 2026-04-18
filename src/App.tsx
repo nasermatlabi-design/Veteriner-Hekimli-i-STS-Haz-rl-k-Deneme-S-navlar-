@@ -17,15 +17,26 @@ import {
   Info,
   Loader2
 } from 'lucide-react';
-import { Question, Exam, ExamResult } from './types';
+import { Question, Exam, ExamResult, SUBJECT_DISTRIBUTION } from './types';
 import { generateFullExam, getPerformanceAdvice } from './services/geminiService';
 import { saveExam, saveResult, getAllExams } from './services/dbService';
+import { getExamFromPool } from './services/examPoolService';
 import { cn } from './lib/utils';
 
 export default function App() {
   const [view, setView] = useState<'landing' | 'loading' | 'exam' | 'result'>('landing');
   const [exam, setExam] = useState<Exam | null>(null);
   const [pastExams, setPastExams] = useState<Exam[]>([]);
+  const [examPool] = useState<Exam[]>(() => {
+    // Generate 100 virtual exams from the pool service
+    return Array.from({ length: 100 }, (_, i) => ({
+      id: `pool-exam-${i + 1}`,
+      createdAt: new Date().toISOString(),
+      questions: [], // Questions will be loaded when selected to save memory
+      isStatic: true,
+      poolIndex: i
+    })) as any[];
+  });
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [userAnswers, setUserAnswers] = useState<(number | null)[]>([]);
   const [timeLeft, setTimeLeft] = useState(150 * 60);
@@ -35,13 +46,9 @@ export default function App() {
   const [aiAdvice, setAiAdvice] = useState<string | null>(null);
   const [isGettingAdvice, setIsGettingAdvice] = useState(false);
 
-  // Load past exams on mount
+  // Load results from DB on mount if needed (currently we only load exams)
   useEffect(() => {
-    const fetchExams = async () => {
-      const exams = await getAllExams();
-      setPastExams(exams);
-    };
-    fetchExams();
+    // We can fetch past individual results here if needed
   }, [view]);
 
   // Timer logic
@@ -57,39 +64,19 @@ export default function App() {
     return () => clearInterval(timer);
   }, [view, timeLeft]);
 
-  const startNewExam = async () => {
-    setIsGenerating(true);
-    setView('loading');
-    try {
-      const questions = await generateFullExam();
-      const examIndex = pastExams.length + 1;
-      const newExam: Exam = {
-        id: `exam-${Date.now()}`,
-        createdAt: new Date().toISOString(),
-        questions: questions
-      };
-      // We'll store a title in the ID or as a virtual property for display
-      setExam(newExam);
-      setUserAnswers(new Array(questions.length).fill(null));
-      setCurrentQuestionIndex(0);
-      setTimeLeft(150 * 60);
-      await saveExam(newExam);
-      setView('exam');
-    } catch (error) {
-      console.error(error);
-      alert('Sınav oluşturulurken bir hata oluştu. Lütfen tekrar deneyin.');
-      setView('landing');
-    } finally {
-      setIsGenerating(false);
-    }
-  };
-
-  const loadPastExam = (selectedExam: Exam) => {
+  const selectPoolExam = (index: number) => {
+    const questions = getExamFromPool(index);
+    const selectedExam: Exam = {
+      id: `pool-exam-${index + 1}`,
+      createdAt: new Date().toISOString(),
+      questions: questions
+    };
     setExam(selectedExam);
-    setUserAnswers(new Array(selectedExam.questions.length).fill(null));
+    setUserAnswers(new Array(questions.length).fill(null));
     setCurrentQuestionIndex(0);
     setTimeLeft(150 * 60);
     setView('exam');
+    setAiAdvice(null);
   };
 
   const handleAnswer = (optionIndex: number) => {
@@ -203,56 +190,51 @@ export default function App() {
                     <span className="font-bold">150 Dakika</span>
                   </div>
                   <div className="p-3 bg-red-50 text-brand-red rounded text-xs leading-relaxed font-bold border border-red-100 italic">
-                    * AI destekli soru havuzu ile her seferinde benzersiz sınav.
+                    * 100 Farklı Deneme Sınavı içeren hazır soru havuzu.
                   </div>
                 </div>
 
                 <button 
-                  onClick={startNewExam}
+                  onClick={() => selectPoolExam(Math.floor(Math.random() * 100))}
                   className="w-full bg-brand-blue text-white py-3 mb-4 rounded font-bold hover:bg-opacity-90 transition-all active:scale-95 flex items-center justify-center gap-2"
                 >
-                  <RefreshCcw className="w-4 h-4" /> YENİ SINAV OLUŞTUR
+                  <RefreshCcw className="w-4 h-4" /> RASTGELE SINAV BAŞLAT
                 </button>
-                <p className="text-[10px] text-gray-400 font-bold uppercase tracking-widest leading-relaxed">
-                  Platformumuz binlerce farklı soru kombinasyonu ile sınırsız deneme sınavı sunma kapasitesine sahiptir.
+                <p className="text-[10px] text-gray-400 font-bold uppercase tracking-widest leading-relaxed text-center px-4">
+                  Havuzdaki 100 farklı deneme sınavından dilediğinizi seçin veya rastgele birini başlatın.
                 </p>
               </div>
 
               {/* History / Exam Library */}
               <div className="bg-white rounded-lg p-8 shadow-md border border-brand-gray h-full min-h-[500px] flex flex-col">
-                <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-6 flex items-center gap-2">
-                  <BookOpen className="w-4 h-4" /> Mevcut Sınav Havuzu ({pastExams.length})
+                <h3 className="text-xs font-bold text-[#1a3a5f] uppercase tracking-widest mb-6 flex items-center gap-2">
+                  <BookOpen className="w-4 h-4" /> Sabit Sınav Havuzu (100 Deneme)
                 </h3>
                 
-                {pastExams.length === 0 ? (
-                  <div className="flex-1 flex flex-col items-center justify-center text-gray-300 py-12">
-                    <Info className="w-12 h-12 mb-4 opacity-20" />
-                    <p className="text-sm font-semibold">Henüz sınav oluşturulmadı.</p>
-                    <p className="text-[10px] mt-1 text-center">İlk sınavınızı oluşturarak platformun<br/>yeteneklerini keşfedin.</p>
-                  </div>
-                ) : (
-                  <div className="space-y-3 overflow-y-auto max-h-[500px] pr-2 custom-scrollbar text-left">
-                    {pastExams.map((e, idx) => (
-                      <button
-                        key={e.id}
-                        onClick={() => loadPastExam(e)}
-                        className="w-full p-4 rounded border border-brand-gray hover:border-brand-blue hover:bg-blue-50 transition-all flex items-center justify-between group"
-                      >
-                        <div className="flex flex-col gap-1">
-                          <span className="text-xs font-bold text-brand-blue">DENEME SINAVI #{pastExams.length - idx}</span>
-                          <span className="text-[10px] text-gray-400 font-medium">
-                            {new Date(e.createdAt).toLocaleDateString('tr-TR')} {new Date(e.createdAt).toLocaleTimeString('tr-TR', { hour: '2-digit', minute: '2-digit' })}
-                          </span>
-                        </div>
+                <div className="space-y-3 overflow-y-auto max-h-[500px] pr-2 custom-scrollbar text-left scroll-smooth">
+                  {examPool.map((e, idx) => (
+                    <button
+                      key={e.id}
+                      onClick={() => selectPoolExam(idx)}
+                      className="w-full p-4 rounded border border-brand-gray hover:border-brand-blue hover:bg-blue-50 transition-all flex items-center justify-between group"
+                    >
+                      <div className="flex flex-col gap-1">
+                        <span className="text-xs font-bold text-brand-blue">DENEME SINAVI #{idx + 1}</span>
+                        <span className="text-[10px] text-gray-400 font-medium">
+                          Durum: Hazır
+                        </span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <span className="text-[10px] font-bold text-gray-300 group-hover:text-brand-blue uppercase transition-colors">BAŞLAT</span>
                         <ChevronRight className="w-4 h-4 text-gray-300 group-hover:text-brand-blue transition-colors" />
-                      </button>
-                    ))}
-                  </div>
-                )}
+                      </div>
+                    </button>
+                  ))}
+                </div>
                 
                 <div className="mt-auto pt-6 border-t border-brand-gray">
                    <p className="text-[10px] text-gray-400 text-center italic">
-                    Oluşturulan her sınav veri tabanına kaydedilir ve dilediğiniz zaman tekrar çözülebilir.
+                    Bu havuz 2026 müfredatına uygun 100 farklı sınav kombinasyonu içermektedir.
                    </p>
                 </div>
               </div>
@@ -269,8 +251,8 @@ export default function App() {
             className="flex flex-col items-center justify-center h-full p-6 bg-white"
           >
             <Loader2 className="w-10 h-10 text-brand-blue animate-spin mb-4" />
-            <h2 className="text-lg font-bold text-brand-blue">STS Simülasyonu Hazırlanıyor</h2>
-            <p className="text-sm text-gray-500 mt-2">Sorular branş dağılımına göre oluşturuluyor...</p>
+            <h2 className="text-lg font-bold text-brand-blue">Havuzdan Sınav Yükleniyor</h2>
+            <p className="text-sm text-gray-500 mt-2">Seçilen deneme sınavı hazırlanıyor...</p>
           </motion.div>
         )}
 
@@ -285,7 +267,7 @@ export default function App() {
             <header className="bg-brand-blue text-white p-3 px-6 flex justify-between items-center border-b-4 border-brand-gold shrink-0">
               <div className="text-lg font-bold tracking-tight">2026 Veteriner Hekimliği STS Simülasyonu</div>
               <div className="flex items-center gap-6">
-                <div className="text-sm">Aday: <strong className="text-brand-gold">Ziyaretçi</strong></div>
+                <div className="text-sm">Aday: <strong className="text-brand-gold">{userName || 'Ziyaretçi'}</strong></div>
                 <div className="bg-brand-red px-4 py-1.5 rounded text-white font-mono font-bold text-lg shadow-inner">
                   Kalan Süre: {formatTime(timeLeft)}
                 </div>
@@ -417,7 +399,7 @@ export default function App() {
               <div className="text-lg font-bold tracking-tight text-brand-gold">SINAV SONUCU VE ANALİZİ</div>
               <div className="flex gap-3">
                 <button onClick={() => setView('landing')} className="text-[10px] items-center gap-1.5 font-bold uppercase tracking-widest bg-white/10 px-4 py-2 rounded hover:bg-white/20 transition-all">ANA MENÜ</button>
-                <button onClick={startNewExam} className="text-[10px] items-center gap-1.5 font-bold uppercase tracking-widest bg-brand-green px-4 py-2 rounded hover:opacity-90 transition-all">YENİ SINAV</button>
+                <button onClick={() => selectPoolExam(Math.floor(Math.random() * 100))} className="text-[10px] items-center gap-1.5 font-bold uppercase tracking-widest bg-brand-green px-4 py-2 rounded hover:opacity-90 transition-all">YENİ SINAV</button>
               </div>
             </header>
 
