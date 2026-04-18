@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-blue: #1a3a5f;
+  --color-brand-gold: #f2a900;
+  --color-brand-red: #dc3545;
+  --color-brand-green: #28a745;
+  --color-brand-bg: #f1f3f5;
+  --color-brand-gray: #e9ecef;
+  --font-sans: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

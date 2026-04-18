@@ -1,0 +1,30 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Default deny
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Helper functions
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isValidId(id) {
+      return id is string && id.size() <= 128;
+    }
+
+    // Exam collection - Publicly readable for testing, but ideally restricted
+    match /exams/{examId} {
+      allow read: if true;
+      allow create: if true; // In a real app, only AI/Admin should create
+    }
+
+    // Results collection - Restricted to owner
+    match /results/{resultId} {
+      allow read: if true; // Public for this demo, usually isOwner()
+      allow create: if true;
+    }
+  }
+}

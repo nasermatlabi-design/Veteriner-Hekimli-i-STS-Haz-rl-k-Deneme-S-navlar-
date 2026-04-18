@@ -1,0 +1,69 @@
+{
+  "entities": {
+    "Question": {
+      "title": "Question",
+      "description": "A single exam question with options and explanations",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "subject": { "type": "string" },
+        "text": { "type": "string" },
+        "options": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "correctIndex": { "type": "integer" },
+        "explanation": { "type": "string" },
+        "optionExplanations": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "required": ["subject", "text", "options", "correctIndex", "explanation", "optionExplanations"]
+    },
+    "Exam": {
+      "title": "Exam",
+      "description": "A generated 80-question STS exam",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "questions": {
+          "type": "array",
+          "items": { "$ref": "Question" }
+        }
+      },
+      "required": ["createdAt", "questions"]
+    },
+    "Result": {
+      "title": "Result",
+      "description": "User's completed exam result",
+      "type": "object",
+      "properties": {
+        "examId": { "type": "string" },
+        "userId": { "type": "string" },
+        "score": { "type": "number" },
+        "correctCount": { "type": "integer" },
+        "wrongCount": { "type": "integer" },
+        "emptyCount": { "type": "integer" },
+        "net": { "type": "number" },
+        "answers": {
+          "type": "array",
+          "items": { "type": "integer" }
+        },
+        "completedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["examId", "userId", "score", "correctCount", "wrongCount", "net", "answers", "completedAt"]
+    }
+  },
+  "firestore": {
+    "/exams/{examId}": {
+      "schema": "Exam",
+      "description": "Collection of generated exams"
+    },
+    "/results/{resultId}": {
+      "schema": "Result",
+      "description": "Collection of exam results"
+    }
+  }
+}
