@@ -25,10 +25,20 @@ export function getExamFromPool(index: number): Question[] {
     });
     
     // Pick the required count
-    examQuestions.push(...sorted.slice(0, dist.count));
+    const picked = sorted.slice(0, dist.count);
+    examQuestions.push(...picked);
+    
+    // Fallback: if pool for this subject is smaller than required count, fill with existing ones
+    if (picked.length < dist.count) {
+      let i = 0;
+      while (examQuestions.filter(q => q.subject === dist.name).length < dist.count) {
+        examQuestions.push({ ...subjectQuestions[i % subjectQuestions.length], id: `refill-${dist.name}-${i}-${index}` });
+        i++;
+      }
+    }
   });
 
-  return examQuestions;
+  return examQuestions.slice(0, 80);
 }
 
 function hashString(str: string): number {

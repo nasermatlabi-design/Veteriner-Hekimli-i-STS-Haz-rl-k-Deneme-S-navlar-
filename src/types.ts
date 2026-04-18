@@ -34,15 +34,15 @@ export interface ExamResult {
 }
 
 export const SUBJECT_DISTRIBUTION = [
-  { name: 'Veteriner Anatomi', count: 4 },
+  { name: 'Veteriner Anatomi', count: 5 },
   { name: 'Veteriner Biyokimya', count: 4 },
-  { name: 'Veteriner Fizyoloji', count: 3 },
+  { name: 'Veteriner Fizyoloji', count: 4 },
   { name: 'Histoloji & Embriyoloji', count: 3 },
   { name: 'Veteriner Hekimliği Tarihi & Deontoloji', count: 3 },
   { name: 'Lab. Hayvanları Bilimi', count: 3 },
-  { name: 'İç Hastalıkları', count: 4 },
-  { name: 'Cerrahi', count: 4 },
-  { name: 'Doğum & Jinekoloji', count: 4 },
+  { name: 'İç Hastalıkları', count: 5 },
+  { name: 'Cerrahi', count: 5 },
+  { name: 'Doğum & Jinekoloji', count: 5 },
   { name: 'Dölverme & Suni Tohumlama', count: 4 },
   { name: 'Farmakoloji & Toksikoloji', count: 4 },
   { name: 'Mikrobiyoloji', count: 4 },

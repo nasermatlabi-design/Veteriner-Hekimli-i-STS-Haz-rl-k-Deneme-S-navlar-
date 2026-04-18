@@ -532,5 +532,131 @@
     "correctIndex": 2,
     "explanation": "Yumurta kabuğunun büyük çoğunluğu kalsiyum karbonattır; eksikliğinde kabuksuz veya yumuşak kabuklu yumurtalar görülür.",
     "optionExplanations": ["Tüy rengiyle ilgilidir.", "Metabolizma içindir.", "Kabuk yapısı için elzemdir.", "Kan yapımı içindir.", "Deri sağlığı içindir."]
+  },
+  {
+    "id": "anat-4",
+    "subject": "Veteriner Anatomi",
+    "text": "Ruminantlarda 'Omasum'un en karakteristik iç yapısı aşağıdakilerden hangisidir?",
+    "options": ["Papilla ruminis", "Cristae reticuli", "Laminae omasi", "Plicae spirales", "Margo plicatus"],
+    "correctIndex": 2,
+    "explanation": "Omasum (kırkbayır), yaprak benzeri katmanlar olan laminae omasi ile karakterizedir.",
+    "optionExplanations": ["Rumen içindeki çıkıntılardır.", "Reticulumun bal peteği yapısıdır.", "Kırkbayırın yapraklı yapısıdır.", "Abomasumdaki sarmal kıvrımlardır.", "At midesindeki mukoza ayrım çizgisidir."]
+  },
+  {
+    "id": "biyo-4",
+    "subject": "Veteriner Biyokimya",
+    "text": "DNA sentezi (replikasyon) sırasında yeni zincirin sentez yönü hangisidir?",
+    "options": ["3' -> 5'", "5' -> 3'", "N-terminal -> C-terminal", "C-terminal -> N-terminal", "Her iki yöne de"],
+    "correctIndex": 1,
+    "explanation": "DNA polimeraz enzimi yeni zinciri her zaman 5' ucundan 3' ucuna doğru sentezler.",
+    "optionExplanations": ["Okuma yönüdür (kalıp zincir).", "Sentez yönüdür.", "Protein sentezi içindir.", "Protein sentezi içindir.", "Sadece bir yöne sentez olur."]
+  },
+  {
+    "id": "fizyo-4",
+    "subject": "Veteriner Fizyoloji",
+    "text": "Kalp kası hücrelerinde aksiyon potansiyelinin 'plato' fazından sorumlu olan iyon akışı hangisidir?",
+    "options": ["Hızlı Sodyum girişi", "Potasyum çıkışı", "Yavaş Kalsiyum girişi", "Magnezyum girişi", "Klor çıkışı"],
+    "correctIndex": 2,
+    "explanation": "Kalp kasındaki uzun süreli kasılmayı sağlayan plato fazı, yavaş kalsiyum kanallarından içeri giren Ca++ iyonları sayesinde oluşur.",
+    "optionExplanations": ["Depolarizasyon fazıdır.", "Repolarizasyon fazıdır.", "Plato fazının temelidir.", "Ozmozla ilgilidir.", "Eksi yük dengesi içindir."]
+  },
+  {
+    "id": "ic-4",
+    "subject": "İç Hastalıkları",
+    "text": "Atlarda kolik (sancı) muayenesinde rektal muayene ile hissedilebilen, kör bağırsağın tabanı hangi bölgededir?",
+    "options": ["Sol üst foseptik bölge", "Sağ üst foseptik bölge", "Pelvis girişi", "Diyaframın hemen arkası", "Sol alt karın bölgesi"],
+    "correctIndex": 1,
+    "explanation": "Cecum (kör bağırsak) tabanı, sağ açlık çukuru (fossa paralumbalis dex.) bölgesinde bulunur.",
+    "optionExplanations": ["Dalak bu bölgededir.", "Cecum'un anatomik yerleşimidir.", "Mesane ve rektum bölgesi.", "Karaciğer bölgesi.", "Kalın bağırsak ansları."]
+  },
+  {
+    "id": "cerrahi-4",
+    "subject": "Cerrahi",
+    "text": "Kemik kırıklarının iyileşme sürecinde kırık uçlarını birleştiren yeni kemik dokusuna ne ad verilir?",
+    "options": ["Fibrin", "Kallus", "Osteoid", "Kondrosit", "Greft"],
+    "correctIndex": 1,
+    "explanation": "Kırık hattında oluşan tamir dokusuna kallus denir. Önce yumuşak (fibröz), sonra sert (kemikleşmiş) kallus oluşur.",
+    "optionExplanations": ["Pıhtılaşma proteinidir.", "Kırık iyileşme dokusudur.", "Kalsifiye olmamış kemik matrisi.", "Kıkırdak hücresi.", "Doku naklidir."]
+  },
+  {
+    "id": "dogum-4",
+    "subject": "Doğum & Jinekoloji",
+    "text": "İneklerde plasenta tipi aşağıdakilerden hangisidir?",
+    "options": ["Difüz", "Zonar", "Diskoidal", "Kotiledoner", "Epitelyokorial"],
+    "correctIndex": 3,
+    "explanation": "Ruminantlarda plasenta kotiledoner tiptedir; karunkula ve kotiledonlar birleşerek plasentomları oluşturur.",
+    "optionExplanations": ["At ve domuzdaki tiptir.", "Kedi ve köpekteki tiptir.", "İnsan ve kemirgendeki tiptir.", "Ruminantlara özgü tiptir.", "Histolojik sınıflandırmadır."]
+  },
+  {
+    "id": "farm-4",
+    "subject": "Farmakoloji & Toksikoloji",
+    "text": "Lokal anezteziklerin etki mekanizması hangisidir?",
+    "options": ["Potasyum kanallarını bloke etmek", "Sodyum kanallarını bloke etmek", "Kalsiyum salınımını artırmak", "Asetilkolin yıkımını engellemek", "GABA reseptörlerini uyarmak"],
+    "correctIndex": 1,
+    "explanation": "Lokal anestezikler, sinir liflerindeki voltaj bağımlı sodyum kanallarına bağlanarak aksiyon potansiyeli oluşumunu ve iletimini engeller.",
+    "optionExplanations": ["İletimi durdurmaz.", "Sinirsel iletimi durduran temel mekanizmadır.", "Kasılmayı artırır.", "Parasempatik etkidir.", "Sakinleştirici etkidir."]
+  },
+  {
+    "id": "mikro-4",
+    "subject": "Mikrobiyoloji",
+    "text": "Antikor üreten bağışıklık sistemi hücresi hangisidir?",
+    "options": ["T-Lenfosit", "B-Lenfosit", "Nötrofil", "Bazofil", "Monosit"],
+    "correctIndex": 1,
+    "explanation": "B-lenfositler antijene maruz kaldıklarında plazma hücrelerine dönüşür ve antikor (immünoglobulin) salgılarlar.",
+    "optionExplanations": ["Hücresel bağışıklıktan sorumludur.", "Humoral (sıvısal) bağışıklık başlatıcısıdır.", "Fagositoz hücresidir.", "Alerji ile ilgilidir.", "Dokuda makrofaja dönüşür."]
+  },
+  {
+    "id": "viro-4",
+    "subject": "Viroloji",
+    "text": "Şap hastalığı (FMD) etkeni olan virüs hangi familyaya aittir?",
+    "options": ["Picornaviridae", "Reoviridae", "Togaviridae", "Orthomyxoviridae", "Bunyaviridae"],
+    "correctIndex": 0,
+    "explanation": "Şap virüsü Aphtovirus cinsinde olup Picornaviridae familyasındandır.",
+    "optionExplanations": ["Şap virüsü ailesidir.", "Mavi dil virüsü ailesidir.", "Bazı ensefalitlerin ailesidir.", "İnfluenza virüsü ailesidir.", "Kırım kongo virüsü ailesidir."]
+  },
+  {
+    "id": "anat-5",
+    "subject": "Veteriner Anatomi",
+    "text": "Kuşlarda (Aves) ses çıkarma organı hangisidir?",
+    "options": ["Larynx", "Pharynx", "Syrinx", "Cloaca", "Proventriculus"],
+    "correctIndex": 2,
+    "explanation": "Kuşlarda ses kutusu, trakeanın bronşlara ayrıldığı yerde bulunan syrinx'tir.",
+    "optionExplanations": ["Memelilerdeki ses organıdır.", "Yutaktır.", "Kuşlara özgü ses organıdır.", "Ortak boşluktur.", "Bezli midedir."]
+  },
+  {
+    "id": "ic-5",
+    "subject": "İç Hastalıkları",
+    "text": "At ve sığırlarda anthrax (şarbon) şüphesi olduğunda, kadavranın açılmamasının en önemli nedeni nedir?",
+    "options": ["Koku oluşması", "Etlerin bozulması", "Spor oluşumunu engellemek", "Otopsinin zorluğu", "Yasal prosedürler"],
+    "correctIndex": 2,
+    "explanation": "Şarbon etkeni hava ile temas ettiğinde spor formuna geçer ve çevrede on yıllarca canlı kalabilir.",
+    "optionExplanations": ["Önemsizdir.", "Kullanılmaz.", "Bulaşmayı ve sporlanmayı önlemek hayati önemdedir.", "Zor değildir ancak tehlikelidir.", "Prosedür bu tehlikeden dolayı vardır."]
+  },
+  {
+    "id": "cerrahi-5",
+    "subject": "Cerrahi",
+    "text": "Cerrahi operasyon öncesi ellerin yıkanması (cerrahi ovalama) süresi ortalama kaç dakika olmalıdır?",
+    "options": ["30 saniye", "1-2 dakika", "3-5 dakika", "10-15 dakika", "20 dakika"],
+    "correctIndex": 2,
+    "explanation": "Etkili bir cerrahi antisepsi için uygun solüsyonlarla 3-5 dakika fırçalama/ovallama yeterli görülür.",
+    "optionExplanations": ["Yetersizdir.", "Sosyal yıkamadır.", "Cerrahi standarttır.", "Deriye zarar verebilir.", "Gereksiz uzundur."]
+  },
+  {
+    "id": "dogum-5",
+    "subject": "Doğum & Jinekoloji",
+    "text": "Gebelik tanısında kullanılan 'Ballottement' yöntemi nedir?",
+    "options": ["Kan testi", "Sütün ısıtılması", "Karın duvarına dışarıdan vuruşlarla yavrunun hissedilmesi", "Rektal palpasyonla uterusun çekilmesi", "Ultrasonografi"],
+    "correctIndex": 2,
+    "explanation": "Ballottement, ilerlemiş gebeliklerde karın duvarına ritmik darbeler vurularak dölütün amniyon sıvısı içinde el geri itmesiyle hissedilmesidir.",
+    "optionExplanations": ["Hormonal tanıdır.", "Fiziksel muayene değildir.", "Eksternal gebelik muayene tekniğidir.", "Rektal bir manevradır.", "Görüntüleme yöntemidir."]
+  },
+  {
+    "id": "halk-2",
+    "subject": "Besin Hijyeni & Halk Sağlığı",
+    "text": "Pastörizasyon işleminin başarısını kontrol etmek için sütte hangi enzimin yokluğu test edilir?",
+    "options": ["Laktaz", "Alkalen Fosfataz", "Peroksidaz", "Katalaz", "Lipaz"],
+    "correctIndex": 1,
+    "explanation": "Alkalen fosfataz enzimi sütün patojenlerinden biraz daha dirençli olduğundan, bu enzimin inaktif olması pastörizasyonun başarılı olduğunu gösterir.",
+    "optionExplanations": ["Süt şekeri sindirimidir.", "Pastörizasyon kontrol enzimidir.", "Yüksek sıcaklık (sterilizasyon) kontrolüdür.", "Meme sağlığı göstergesidir.", "Bozulma göstergesidir."]
   }
 ]
